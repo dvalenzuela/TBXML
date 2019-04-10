@@ -1,0 +1,94 @@
+BCSymbolMap Version: 2.0
++[TBXML newTBXMLWithXMLString:]
++[TBXML newTBXMLWithXMLString:error:]
++[TBXML newTBXMLWithXMLData:]
++[TBXML newTBXMLWithXMLData:error:]
++[TBXML newTBXMLWithXMLFile:]
++[TBXML newTBXMLWithXMLFile:error:]
++[TBXML newTBXMLWithXMLFile:fileExtension:]
++[TBXML newTBXMLWithXMLFile:fileExtension:error:]
+-[TBXML init]
+-[TBXML initWithXMLString:]
+-[TBXML initWithXMLString:error:]
+-[TBXML initWithXMLData:]
+-[TBXML initWithXMLData:error:]
+-[TBXML initWithXMLFile:]
+-[TBXML initWithXMLFile:error:]
+-[TBXML initWithXMLFile:fileExtension:]
+-[TBXML initWithXMLFile:fileExtension:error:]
+-[TBXML decodeData:]
+-[TBXML decodeData:withError:]
+-[TBXML rootXMLElement]
++[TBXML(StaticFunctions) elementName:]
++[TBXML(StaticFunctions) elementName:error:]
++[TBXML(StaticFunctions) attributeName:]
++[TBXML(StaticFunctions) attributeName:error:]
++[TBXML(StaticFunctions) attributeValue:]
++[TBXML(StaticFunctions) attributeValue:error:]
++[TBXML(StaticFunctions) textForElement:]
++[TBXML(StaticFunctions) textForElement:error:]
++[TBXML(StaticFunctions) valueOfAttributeNamed:forElement:]
++[TBXML(StaticFunctions) valueOfAttributeNamed:forElement:error:]
++[TBXML(StaticFunctions) childElementNamed:parentElement:]
++[TBXML(StaticFunctions) childElementNamed:parentElement:error:]
++[TBXML(StaticFunctions) nextSiblingNamed:searchFromElement:]
++[TBXML(StaticFunctions) nextSiblingNamed:searchFromElement:error:]
++[TBXML(StaticFunctions) iterateElementsForQuery:fromElement:withBlock:]
++[TBXML(StaticFunctions) iterateAttributesOfElement:withBlock:]
++[TBXML(Private) errorTextForCode:]
++[TBXML(Private) errorWithCode:]
++[TBXML(Private) errorWithCode:userInfo:]
+-[TBXML(Private) allocateBytesOfLength:error:]
+-[TBXML(Private) decodeBytes]
+-[TBXML(Private) dealloc]
+-[TBXML(Private) nextAvailableElement]
+-[TBXML(Private) nextAvailableAttribute]
+_OBJC_IVAR_$_TBXML.rootXMLElement
+_OBJC_IVAR_$_TBXML.currentElementBuffer
+_OBJC_IVAR_$_TBXML.currentAttributeBuffer
+_OBJC_IVAR_$_TBXML.currentElement
+_OBJC_IVAR_$_TBXML.currentAttribute
+_OBJC_IVAR_$_TBXML.bytes
+_OBJC_IVAR_$_TBXML.bytesLength
+Apple LLVM version 10.0.1 (clang-1001.0.46.3)
+/Users/dvalenzuela/Documents/GitHub/TBXML/TBXML-Code/TBXML.m
+/Users/dvalenzuela/Documents/GitHub/TBXML
+isspace
+/Applications/Xcode_10_2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/usr/include/_ctype.h
+__istype
+NSMakeRange
+/Applications/Xcode_10_2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h
+/Users/dvalenzuela/Documents/GitHub/TBXML/TBXML-Headers/TBXML.h
++[NSData(TBXML_Compression) dataWithUncompressedContentsOfFile:]
++[NSData(TBXML_Compression) newDataWithBase64EncodedString:]
+-[NSData(TBXML_Compression) initWithBase64EncodedString:]
+-[NSData(TBXML_Compression) base64Encoding]
+-[NSData(TBXML_Compression) base64EncodingWithLineLength:]
+-[NSData(TBXML_Compression) gzipDeflate]
+-[NSData(TBXML_Compression) gzipInflate]
+_encodingTable
+/Users/dvalenzuela/Documents/GitHub/TBXML/TBXML-Code/TBXML+Compression.m
++[NSMutableURLRequest(TBXML_HTTP) tbxmlGetRequestWithURL:]
++[NSMutableURLRequest(TBXML_HTTP) tbxmlPostRequestWithURL:parameters:]
++[NSURLConnection(TBXML_HTTP) tbxmlAsyncRequest:success:failure:]
+___65+[NSURLConnection(TBXML_HTTP) tbxmlAsyncRequest:success:failure:]_block_invoke
+___copy_helper_block_e8_32s40b48b
+___destroy_helper_block_e8_32s40s48s
++[TBXML(TBXML_HTTP) newTBXMLWithURL:success:failure:]
+-[TBXML(TBXML_HTTP) initWithURL:success:failure:]
+___49-[TBXML(TBXML_HTTP) initWithURL:success:failure:]_block_invoke
+___49-[TBXML(TBXML_HTTP) initWithURL:success:failure:]_block_invoke.60
+___copy_helper_block_e8_32b40s
+___destroy_helper_block_e8_32s40s
+___block_descriptor_56_e8_32s40bs48bs_e5_v8@?0l
+___block_descriptor_56_e8_32s40bs48bs_e34_v24@?0@"NSData"8@"NSURLResponse"16l
+___block_descriptor_48_e8_32bs40s_e28_v24@?0@"NSData"8@"NSError"16l
+/Users/dvalenzuela/Documents/GitHub/TBXML/TBXML-Code/TBXML+HTTP.m
+__destroy_helper_block_e8_32s40s
+__copy_helper_block_e8_32b40s
+__49-[TBXML(TBXML_HTTP) initWithURL:success:failure:]_block_invoke.60
+__49-[TBXML(TBXML_HTTP) initWithURL:success:failure:]_block_invoke
+__destroy_helper_block_e8_32s40s48s
+__copy_helper_block_e8_32s40b48b
+__65+[NSURLConnection(TBXML_HTTP) tbxmlAsyncRequest:success:failure:]_block_invoke
+/Users/dvalenzuela/Library/Developer/Xcode/DerivedData/TBXML-arpuaiiwvpqqideoawbjkpqysqzu/Build/Intermediates.noindex/ArchiveIntermediates/TBXMLFramework/IntermediateBuildFilesPath/TBXML.build/Release-iphoneos/TBXMLFramework.build/DerivedSources/TBXMLFramework_vers.c

@@ -1,0 +1,6 @@
+framework module TBXMLFramework {
+  umbrella header "TBXMLFramework.h"
+
+  export *
+  module * { export * }
+}
