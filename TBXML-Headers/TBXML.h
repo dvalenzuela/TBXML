@@ -148,7 +148,7 @@ typedef void (^TBXMLIterateAttributeBlock)(TBXMLAttribute *attribute, NSString *
 
 
 @property (nonatomic, readonly) TBXMLElement * rootXMLElement;
-
++ (id)tbxmlWithXMLString:(NSString*)aXMLString;
 + (id)newTBXMLWithXMLString:(NSString*)aXMLString error:(NSError **)error;
 + (id)newTBXMLWithXMLData:(NSData*)aData error:(NSError **)error;
 + (id)newTBXMLWithXMLFile:(NSString*)aXMLFile error:(NSError **)error;

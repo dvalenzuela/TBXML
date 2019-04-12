@@ -47,7 +47,14 @@
 @implementation TBXML
 
 @synthesize rootXMLElement;
-
++ (id)tbxmlWithXMLString:(NSString*)aXMLString {
+    NSError *error = nil;
+    TBXML *xml = [TBXML newTBXMLWithXMLString:aXMLString error:&error];
+    if (error != nil) {
+        return nil;
+    }
+    return xml;
+}
 + (id)newTBXMLWithXMLString:(NSString*)aXMLString {
 	return [[TBXML alloc] initWithXMLString:aXMLString];
 }
